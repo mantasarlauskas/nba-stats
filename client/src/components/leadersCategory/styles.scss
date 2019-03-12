@@ -1,0 +1,29 @@
+.leaders-category__title {
+  color: #1570b5;
+  font-weight: bold;
+  font-size: 18px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px #63737b solid;
+}
+
+.leaders-category__row {
+  display: grid;
+  grid-template-columns: auto 1fr 15%;
+  margin-bottom: 5px;
+}
+
+.leaders-category__row__number {
+  margin-right: 5px;
+}
+
+.leaders-category__row__team {
+  font-size: 12px;
+  color: gray;
+  margin-left: 10px;
+}
+
+.leaders-category__row__value {
+  font-weight: bold;
+  text-align: right;
+}
